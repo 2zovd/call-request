@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+}
+
 * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -63,7 +70,7 @@ html, body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "RobotoRegular";
   font-size: 14px;
   line-height: 16px;
   color: #000;
@@ -103,8 +110,8 @@ body {
 
 .matchmaker-name {
   display: block;
-  font-size: 23px;
-  line-height: 25px;
+  font-size: 20px;
+  line-height: 22px;
   margin-bottom: 5px;
 }
 
