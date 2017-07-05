@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Request matchmaker's consultation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Request call with matchmaker and get qualified consultation.">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/datepicker.min.css">
+	<link rel="stylesheet" href="css/call-request.css">
+
+</head>
+<body>
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 call-wrapper">
+					<div class="col-md-12 call-title">
+						<strong>Matchmaker's call request</strong>
+					</div>
+					<div class="col-md-12">
+
+						<div class="col-md-5">
+							<div class="left-section">
+								<div class="matchmaker-photo">
+									<img src="img/matchmaker-valentina.JPG" alt="Matchmaker">
+								</div>
+								<div class="matchmaker-info">
+									<strong class="matchmaker-name">Valentina</strong>
+									<p>Master of psychology, certified matchmaker</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-7">
+							<div class="content-section">
+								<div class="call-buttons">
+									<p class="call-subheading">Please, select your question:</p>
+									<button class="btn-question">Consultation</button>
+									<button class="btn-question">Relationship advice</button>
+									<button class="btn-question">Common questions</button>
+									<button class="btn-question">How to meet love?</button>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+
+			<!-- step 2 -->
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 call-wrapper">
+					<div class="col-md-12 call-title">
+						<strong>Matchmaker's call request</strong>
+					</div>
+					<div class="col-md-12">
+
+						<div class="col-md-5">
+							<div class="left-section calendar">
+								<div class="datepicker-here" id="datepicker" data-language='en'></div>	
+							</div>
+						</div>
+
+						<div class="col-md-7">
+							<div class="content-section">
+								<p class="call-subheading">Please complete information below and press 'Continue':</p>
+								<form>
+									<div class="call-form-row">
+										<!-- <label for="call-name">Name</label> -->
+										<input type="text" class="call-field" placeholder="Enter your name" id="call-name" name="Name">
+										<span class="error-message"></span>
+									</div>
+									<div class="call-form-row">
+										<!-- <label for="call-name">E-mail</label> -->
+										<input type="text" class="call-field" placeholder="Enter your e-mail" id="call-email" name="Email">
+										<span class="error-message"></span>
+									</div>
+									<div class="call-form-row">
+										<!-- <label for="call-name">Phone</label> -->
+										<input type="text" class="call-field" placeholder="Enter your phone number" id="call-phone" name="Phone">
+										<span class="error-message"></span>
+									</div>
+									<button class="btn-continue">Continue</button>
+								</form>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="js/datepicker.min.js"></script>
+	<script src="js/datepicker.en.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+</html>
